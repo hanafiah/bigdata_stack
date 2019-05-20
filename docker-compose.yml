@@ -49,7 +49,7 @@ services:
     networks:
       - hadoop_network
 
-  nodemanager1:
+  nodemanager:
     image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.1.1-java8
     container_name: nodemanager
     ports:
